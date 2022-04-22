@@ -1,0 +1,447 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+ol, ul {
+    list-style: none;
+}
+
+
+
+#landing {
+    background-image: url(vintage\ full.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    min-height: 100vh;
+    /* color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
+}
+
+#landing-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    display: flex;
+    /* align-content: center; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    /* margin-top: 200px; */
+}
+
+#landing h1,
+#landing h2 {
+    font-size: 3rem;
+    /* text-shadow: 3px 4px 8px white */
+}
+
+
+button {
+    background: transparent;
+    border: none;
+}
+
+i {
+    font-size: 80px;
+    text-shadow: 3px 4px 8px white;
+}
+
+.about-btn:hover{
+    color: purple;
+}
+
+
+
+
+
+.navbar {
+  
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-self: flex-start;
+    font-size: 18px;
+    color: solid black;
+    gap: 10px;
+    position: fixed;
+    padding: 10px;
+    /* box-shadow: -7px 4px 7px 0px rgba(0,0,0,0.34);
+-webkit-box-shadow: -7px 4px 7px 0px rgba(0,0,0,0.34);
+-moz-box-shadow: -7px 4px 7px 0px rgba(0,0,0,0.34);
+z-index: 100; */
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.about-text {
+ margin: auto;
+ font-size: 20px;
+}
+
+.about h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.about .image {
+    background-image: url(./dark\ vint\ backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  padding-right: 20px;
+}
+
+
+#me {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+
+
+.section title h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom:15px;
+    position: relative;
+    color: purple;
+}
+
+.header{
+    font-size: 20px;
+    color: white;
+}
+
+.section title p{
+    color: purple;
+}
+
+
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    position: relative;
+    color: purple;
+    text-shadow: 2px 3px 8px solid black;
+    font-family: "Playfair Display",serif;
+    }
+
+
+
+
+.resume {
+    background-image: url(./mid\ vint\ backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.timelines {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.timeline-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.timeline-item {
+  margin-bottom: 2em;
+}
+.timeline-item h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+}
+.timeline-item h3::before {
+  content: "";
+  position: absolute;
+  left: -2.35em;
+  background-color: #fe4747;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  transform: translate(-0.5px, 0.2em);
+}
+
+.timeline-items {
+  margin: 2em;
+  padding: 0.01em 0 3em 2em;
+  border-left: 1px solid #fe4747;
+}
+
+.timeline-item {
+  margin-top: -0.3em;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.timeline-item time {
+  display: block;
+  float: left;
+  background-color: #585858;
+  padding: 0.2em 0.4em;
+}
+.timeline-item > * {
+  margin: 1em 0;
+}
+.timeline-item .location {
+  clear: both;
+  font-size: 0.85em;
+  font-style: italic;
+}
+    
+
+
+    .skills-title{
+        display:flex;
+        justify-content: space-between;
+        color:white;
+    }
+
+    .Skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+        color:white;
+        
+    }
+    
+    .skills-col{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    meter{
+        width: 100%;
+    
+    }
+    #skills{
+        background-image: url(./vint\ bkdrop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+
+
+
+    #projects{
+        background-image: url(./lil\ lighter\ vint.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #projects img{
+        width: 400px;
+        height: 330px;
+        flex-wrap: wrap;
+        margin: 2%;
+        box-shadow: 3px 3px 4px 4px black;
+    }
+    #projects h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: 43px;
+        color:black;
+    }
+
+    body {
+        color: #c2c1c2;
+        background-color: #fff;
+        font-family: sans-serif;
+      }
+      
+      p {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        padding: 1em;
+        color: #000;
+      }
+      
+      #slider-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      #testimonials {
+        background-image: url(./light\ light\ vint.jpg);
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 100%;
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      figure {
+        position: absolute;
+        width: 400%;
+        left: 0;
+        animation: 20s slider infinite;
+        -webkit-animation: 20s slider infinite;
+        border-top: 1px solid #c2c1c2;
+        border-bottom: 1px solid #c2c1c2;
+        margin: 0;
+      }
+      
+      blockquote {
+        width: 25%;
+        margin: 0;
+        float: left;
+        padding-bottom: 1em;
+      }
+
+      blockquote img {
+          width: 250px;
+    }
+
+    blockquote p {
+         color: #000;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    footer {
+        color: #000;
+    }
+      
+      @-webkit-keyframes slider {
+          0%  { transform: translateX(0%); }
+          25% { transform: translateX(0%); }
+          33% { transform: translateX(-25%); }
+          58% { transform: translateX(-25%); }
+          66% { transform: translateX(-50%); }
+          91% { transform: translateX(-50%); }
+          100%{ transform: translateX(-75%); }
+      }
+      
+      @keyframes slider {
+           0%  { transform: translateX(0%); }
+          25% { transform: translateX(0%); }
+          33% { transform: translateX(-25%); }	
+          58% { transform: translateX(-25%); }
+          66% { transform: translateX(-50%); }
+          91% { transform: translateX(-50%); }
+          100%{ transform: translateX(-75%); }
+      }
+      
+     
+    
+
+      #contacts{
+          height: 100vh;
+          width: 100%;
+          background-image: url(./light\ light\ vint.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+            
+      }
+
+    #contacts h2{
+        color: #000;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    
+
+    .socials h3{
+        font-size: 40px;
+        color: darkorchid;
+    }
+
+    .test{
+        text-align: center;
+    }
+
+    
+    .containerss{
+        margin-left: 35%;
+    }
+      form{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          padding-right: 150px;
+          /* padding-top: 300px; */
+      }
+   form label{
+       height: 50px;
+       color: #000;
+   }
+
+   .container{
+       display: flex;
+
+   }
+   .socials{
+       color: #000;
+   }
+
+   .links{
+       display: flex;
+       flex-wrap: nowrap;
+       justify-content: space-evenly;
+   }
+
+   i:hover{
+       color: palevioletred;
+   }  
+
+  .copy {
+       text-align: center;
+   }
+   footer{
+       margin:auto;
+       background-image: url(./lightest\ vint.jpg);
+   }
+
+   @media(min-width:750px) {
+    #testimonials {
+        height: 80vh;
+    }
+   
+  }
