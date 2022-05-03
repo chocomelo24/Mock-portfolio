@@ -6,62 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"><script src="https://kit.fontawesome.com/2093f2a112.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 <body>
+
+  <main>
+
     <section id="landing">
       <div id="landing-text">
         <h1>Hey, I Am Chanique Mansoor</h1>
         <h2>A Web Developer</h2>
-      
+        
         <a href="#about"><button><i class="fa-solid fa-angles-down about-btn"></i></button></a>
       </div>
-      </section>
-
-    <nav>
-      <ul>
-        <li> <a class="nav-link" href="#">Home</a></li>
-        <li><a class="nav-link" href="#about">About</a></li>      
-        <li><a class="nav-link" href="#resume">Resume</a></li>
-        <li><a class="nav-link" href="#skills">Skills</a></li>
-        <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li> <a class="nav-link" href="#testimonials">Testimonials</a></li>
-        <li><a class="nav-link" href="#contacts">Contacts</a></li>
-      </ul>
-    </nav>
-      <div class="navbar" id="navbar";>
-       
-        
-        
-        
-        
-       
-        
-    </div>
-
-    <section id="about" class="about">
-       <div class="container">
-            <div class="row no-gutters">
-                <div class="image">
-                    <img id="me" src="Chanique.JPG" alt="Me">
-                    <div class="about-text">
-                    <h3 class="about-head">About Me</h3>
-                    <p></p>Hey there I am Chanique, I started studying coding in 2022 and have a passion for web development. I enjoy trying out new things and love to think of myself as adventurous. My hobbies are singing, dancing, soccer and karate. Traveling and solving complex situations is my go to, I'm also a huge foodie. I matriculated in 2019 and started working immediatly after.
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
     </section>
 
-        <section id="resume" class="resume">
-         
-            <div class="timelines">
-  
-                <div class="timeline education">
-                  <h2 class="timeline-title">Education</h2>
-                  <div class="timeline-items">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">C.Mansoor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#contacts">Contacts</a>
+        </li>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<section id="about" class="about">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="image">
+        <img id="me" src="./images/Chanique.JPG" alt="Me">
+        <div class="about-text">
+          <h3 class="about-head">About Me</h3>
+          <p>Hey there I am Chanique, I started studying coding in 2022 and have a passion for web development. I enjoy trying out new things and love to think of myself as adventurous. My hobbies are singing, dancing, soccer and karate. Traveling and solving complex situations is my go to, I'm also a huge foodie. I matriculated in 2019 and started working immediatly after.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+    </section>
+
+    <section id="resume" class="resume">
+      <h3>Resume</h3>
+      <div class="timelines">
+           </div>
+           <div class="timeline education">
+             <h2 class="timeline-title">Education</h2>
+             <div class="timeline-items">
                     <div class="timeline-item">
                       <h3>Matric</h3>
                       <time datetime="2017/2019">2019</time>
@@ -83,151 +103,224 @@
                       <time datetime="2019/2020">2019 &ndash; 2020</time>
                       <div class="location">Wimpy, Cape Town</div>
                     </div>
-                   
+                    
                   </div>
                 </div>
                 
               </div>
-        </section>
+            </section>
 
 
-    </section>
+          </section>
 
-    <section id="skills" class="skills">
-        <div class="Skills">
+          <section id="skills" class="skills">
+            <div class="Skills">
             <h2>Skills</h2>
             <p></p>
             <div class="skills-col">
                 <div class="skills-title">
-                    <h3>HTML</h3>
+                  <h3>HTML 70%</h3>
                     <p>100%</p>
-                </div>
+                  </div>
                 <meter value="70" min="0" max="100">2 out of 10</meter>
 
-            </div>
+              </div>
             <div class="skills-col">
                 <div class="skills-title">
-                    <h3>CSS</h3>
-                    <p>100%</p>
+                  <h3>CSS 50%</h3>
+                  <p>100%</p>
                 </div>
                 <meter value="50" min="0" max="100">2 out of 10</meter>
 
             </div>
             <div class="skills-col">
                 <div class="skills-title">
-                    <h3>Javascript</h3>
+                    <h3>Javascript 20%</h3>
                     <p>100%</p>
-                </div>
-                <meter value="20" min="0" max="100">2 out of 10</meter>
+                  </div>
+                  <meter value="20" min="0" max="100">2 out of 10</meter>
 
-            </div>
+                </div>
             <div class="skills-col">
                 <div class="skills-title">
-                    <h3>VUE</h3>
-                    <p>100%</p>
+                  <h3>VUE 20%</h3>
+                  <p>100%</p>
                 </div>
                 <meter value="20" min="0" max="100">2 out of 10</meter>
-
+                
             </div>
             <div class="skills-col">
-                <div class="skills-title">
-                    <h3>Node</h3>
+              <div class="skills-title">
+                <h3>Node 20%</h3>
                     <p>100%</p>
-                </div>
+             </div>
                 <meter value="20" min="0" max="100">2 out of 10</meter>
 
-            </div>
+              </div>
             <div class="skills-col">
                 <div class="skills-title">
-                    <h3>Data basis</h3>
+                  <h3>Data basis 20%</h3>
                     <p>100%</p>
-                </div>
-                <meter value="20" min="0" max="100">2 out of 10</meter>
+                  </div>
+                  <meter value="20" min="0" max="100">2 out of 10</meter>
 
             </div>
+            
 
-
-        </div>
-
-    </section>
-
-    <section id="projects">
+          </div>
+          
+        </section>
+        
+        <section id="projects">
         <h2>Projects</h2>
         <p>Below is a list of all my projects I have done previously and some that I am still working on.</p>
-        <img src="./img1.jpg" alt="PROJECTS">
-        <img src="./1.jpg" alt="PROJECTS">
-        <img src="./2.jpg" alt="PROJECTS">
-        <img src="./3.jpg" alt="PROJECTS">
-        <img src="./4.jpg" alt="PROJECTS">
-        <img src="./5.jpg" alt="PROJECTS">
-        
-    </section>
+        <div class="d-flex">
+        <div class="d-flex flex-column ">
+          <a href="./Projects/1st port.html"><img src="./images/1st port project.png" alt="PROJECTS"></a>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Projects
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Project</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       My first portfolio. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="d-flex flex-column">
+  <a href="./Projects/calculator.html"><img src="./images/calculator project.png" alt="PROJECTS"></a>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+  Projects
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Calculator</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Calculator.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="d-flex flex-column">
+<a href="./Projects/holiday.html"><img src="./images/holiday project.png" alt="PROJECTS"></a>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Projects
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Holiday</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Holiday Destination.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+      </section>
 
 
-    <section id="testimonials" class="testimonials section-bg">
+      <section id="testimonials" class="testimonials section-bg">
         <div class="container">
             <div class="section-title">
-                <h2 >Testimonials</h2>
-                <p></p>
+              <h2 >Testimonials</h2>
             </div>
             <div id="testimonials">
-                <figure class="single-testimonial">
-                  <blockquote>
-                    <img src="./test1.jpg" alt="Women">
-                    <p>"I would like to personally thank you for your outstanding product."
-                    </p>
-                    <footer>- <cite>Reta B.</cite></footer>
-                  </blockquote>
-                  <blockquote>
-                    <img src="./test2.jpg" alt="Male">
-                    <p>"Without Chanique Mansoor, we would have gone bankrupt by now. We've seen amazing results already. I like Chanique Mansoor more and more each day because it makes my life a lot easier. We were treated like royalty."
-                    </p>
-                    <footer>- <cite>Inigo V.</cite></footer>
-                  </blockquote>
-                  <blockquote>
-                    <img src="./test3.jpg" alt="female">
-                    <p>"Chanique Mansoor is the real deal! Nice work on your Chanique Mansoor. We can't understand how we've been living without Chanique Mansoor."
-                    </p>
-                    <footer>- <cite>Collete R.</cite></footer>
-                  </blockquote>
-                </figure>
-              </div>
-            </section>
+              <figure class="single-testimonial">
+                <blockquote>
+                  <img src="./images/Cameron (1).JPG" alt="Women">
+                  <p class="wrap">"I would like to personally thank you for your outstanding product."
+                  </p>
+                  <h6>- <cite>Cameron</cite></h6>
+                </blockquote>
+                <blockquote>
+                  <img src="./images/Zachary (2).JPG" alt="Male">
+                  <p class="wrap">"Without Chanique Mansoor, we would have gone bankrupt by now. We've seen amazing results already. I like Chanique Mansoor more and more each day because it makes my life a lot easier. We were treated like royalty."
+                  </p>
+                  <h6>- <cite>Zachary</cite></h6>
+                </blockquote>
+                <blockquote>
+                  <img src="./images/Sunethia (2).JPG" alt="female">
+                  <p class="wrap">"Chanique Mansoor is the real deal! Nice work on your Chanique Mansoor. We can't understand how we've been living without Chanique Mansoor."
+                  </p>
+                  <h6>- <cite>Sunethia</cite></h6>
+                </blockquote>
+              </figure>
+            </div>
+        </div>
+          </section>
 
-                
-
-        <section id="contacts">
+          
+          
+          <section id="contacts">
             <h2 class="test">Contacts</h2>
             <div class="containerss">
-                <form
-                action="https://formspree.io/f/xnqwgend"
-                method="POST"
+              <form
+              action="https://formspree.io/f/xnqwgend"
+              method="POST"
               >
+              <label>
+                Your Name:
+                <input type="text" name="name">
+              </label>
+              <label>
+                Your Contact:
+                <input type="text" name="contact">
                 <label>
-                  Your Name:
-                  <input type="text" name="name">
+                  Your Email:
+                  <input type="email" name="email">
                 </label>
-                <label>
-                    Your Contact:
-                    <input type="text" name="contact">
-                  </label>  
-                  <label>
-                    Your Email:
-                    <input type="email" name="email">
-                  </label>
                 <label>
                   Your message:
                   <textarea name="message"></textarea>
                 </label>
                 <!-- your other form fields go here -->
-                <button type="submit">Send</button>
+                <button class="submit" type="submit">Send</button>
               </form>
 
             </div>
             <div class="socials">
-                <h3 class="test">Available</h3>
-                <p class="test">Contact me on the following social links.</p>
-                <div class="links">
+              <h3 class="test"></h3>
+              <p class="test">Contact me on the following social links.</p>
+              <div class="links">
                 <div class="linkedin">
                   <a class="btn btn-dark" href="https://www.linkedin.com/in/chanique-mansoor-235a83237/" target="_blank"><i class="fab fa-linkedin"></i></a>
                   <p>Linkedin</p>
@@ -237,21 +330,19 @@
                   <p>Github</p>          
                 </div>
                 <div class="codepen">
+                </label>  
                   <a class="btn btn-dark" href="https://codepen.io/chocomelo24"><i class="fa-brands fa-codepen"></i></a>
                   <p>Codepen</p>
                 </div>
             </div>
 
-            </div>
-            
+          </div>
 
         </section>
+        
+        <footer><p class="fa-solid fa-copyright">Copyright Chanique Mansoor 2022</P></footer>
 
-        <footer> <P class="copy">Copyright Chanique</P></footer>
-    
-
-
-
-    
-</body>
-</html>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        </main>
+        </body>
+        </html>
