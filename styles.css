@@ -323,6 +323,7 @@ i {
       }
       
       blockquote {
+        padding-top: 200px;
         width: 25%;
         margin: 0;
         float: left;
@@ -449,7 +450,7 @@ i {
     align-content: center;
 }
 
-   @media(min-width:300px) {
+   @media(min-width:240px) {
     #testimonials {
         height: 100vh;
     }
